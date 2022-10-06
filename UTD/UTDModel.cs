@@ -9,6 +9,7 @@ namespace UTD.Models
     public abstract class UTDModel
     {
         public Guid Id = Guid.NewGuid();
-        DateTime Created = DateTime.Now;
+        public DateTime Created = DateTime.Now;
+        public bool IsDeleted { get; set; } = false;
     }
 }

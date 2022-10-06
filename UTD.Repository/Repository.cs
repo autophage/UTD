@@ -42,7 +42,7 @@ namespace UTD.Repository
 
         public static UTDModel GetById(Guid id)
         {
-            return AllTrackedItems.First(m => m.Id == id);
+            return AllTrackedItems.FirstOrDefault(m => m.Id == id && !m.IsDeleted);
         }
 
         public static IEnumerable<T> GetAll<T>() where T : UTDModel{
@@ -50,7 +50,7 @@ namespace UTD.Repository
 
             foreach (var item in AllTrackedItems)
             {
-                if(item.GetType() == typeof(T))
+                if(item.GetType() == typeof(T) && !item.IsDeleted)
                 {
                     toReturn.Add((T) item);
                 }
@@ -65,7 +65,7 @@ namespace UTD.Repository
 
             foreach (var item in AllTrackedItems)
             {
-                if (item.GetType() == typeof(T) && condition((T)item))
+                if (item.GetType() == typeof(T) && condition((T)item) && !item.IsDeleted)
                 {
                     toReturn.Add((T)item);
                 }
@@ -73,8 +73,13 @@ namespace UTD.Repository
 
             return toReturn;
         }
+        
+        public static void Delete(UTDModel item)
+        {
+            item.IsDeleted = true;
+        }
 
-        public static void DeleteEverything()
+        public static void RemoveAllItemsFromMemory()
         {
             AllTrackedItems.Clear();
         }

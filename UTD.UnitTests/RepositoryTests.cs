@@ -5,7 +5,7 @@ namespace UTD.UnitTests
         [SetUp]
         public void Setup()
         {
-            Repository.Repository.DeleteEverything();
+            Repository.Repository.RemoveAllItemsFromMemory();
         }
 
         [Test]
@@ -81,6 +81,20 @@ namespace UTD.UnitTests
             // Assert
             result.Should().Contain(user1);
             result.Should().NotContain(user2);
+        }
+
+        [Test]
+        public void DeletedItem_ShouldNotBeRetrievable()
+        {
+            // Arrange
+            var user = new User();
+            Repository.Repository.Add(user);
+
+            // Act
+            Repository.Repository.Delete(user);
+
+            // Assert
+            Repository.Repository.GetById(user.Id).Should().BeNull();
         }
     }
 }
