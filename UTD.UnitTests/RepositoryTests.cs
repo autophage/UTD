@@ -5,6 +5,7 @@ namespace UTD.UnitTests
         [SetUp]
         public void Setup()
         {
+            Repository.Repository.DeleteEverything();
         }
 
         [Test]
@@ -29,6 +30,9 @@ namespace UTD.UnitTests
             // Arrange
             var user1 = new User();
             var user2 = new User();
+            
+            Repository.Repository.Add(user1);
+            Repository.Repository.Add(user2);
 
             // Act
             var result = Repository.Repository.GetAll<User>();
@@ -62,11 +66,16 @@ namespace UTD.UnitTests
         public void GetAll_WithCondition_ShouldApplyCondition()
         {
             // Arrange
-            var user1 = new User { UserName = new List<Models.ConversationModel.DocumentVersion> { new DocumentVersion { Text = "Test" } } };
-            var user2 = new User { UserName = new List<Models.ConversationModel.DocumentVersion> { new DocumentVersion { Text = "Something Else" } } };
+            var user1 = new User();
+            user1.UserName = DocumentVersion.CreateVersionList(user1, "test");
+            var user2 = new User();
+            user2.UserName = DocumentVersion.CreateVersionList(user2, "something else");
+
+            Repository.Repository.Add(user1);
+            Repository.Repository.Add(user2);
 
             // Act
-            var result = Repository.Repository.GetAll<User>(u => u.UserName.First().Text == "Test");
+            var result = Repository.Repository.GetAll<User>(u => u.UserName.First().Text == "test");
 
 
             // Assert

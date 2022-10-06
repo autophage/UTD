@@ -73,5 +73,10 @@ namespace UTD.Repository
 
             return toReturn;
         }
+
+        public static void DeleteEverything()
+        {
+            AllTrackedItems.Clear();
+        }
     }
 }
