@@ -1,0 +1,12 @@
+C:\Users\erich\source\repos\UTD\UTD\bin\Debug\net6.0\UTD.Models.deps.json
+C:\Users\erich\source\repos\UTD\UTD\bin\Debug\net6.0\UTD.Models.dll
+C:\Users\erich\source\repos\UTD\UTD\bin\Debug\net6.0\UTD.Models.pdb
+C:\Users\erich\source\repos\UTD\UTD\obj\Debug\net6.0\UTD.Models.csproj.AssemblyReference.cache
+C:\Users\erich\source\repos\UTD\UTD\obj\Debug\net6.0\UTD.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erich\source\repos\UTD\UTD\obj\Debug\net6.0\UTD.Models.AssemblyInfoInputs.cache
+C:\Users\erich\source\repos\UTD\UTD\obj\Debug\net6.0\UTD.Models.AssemblyInfo.cs
+C:\Users\erich\source\repos\UTD\UTD\obj\Debug\net6.0\UTD.Models.csproj.CoreCompileInputs.cache
+C:\Users\erich\source\repos\UTD\UTD\obj\Debug\net6.0\UTD.Models.dll
+C:\Users\erich\source\repos\UTD\UTD\obj\Debug\net6.0\refint\UTD.Models.dll
+C:\Users\erich\source\repos\UTD\UTD\obj\Debug\net6.0\UTD.Models.pdb
+C:\Users\erich\source\repos\UTD\UTD\obj\Debug\net6.0\ref\UTD.Models.dll

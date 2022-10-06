@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "UTD.Repository/1.0.0": {
+        "dependencies": {
+          "UTD.Models": "1.0.0"
+        },
+        "runtime": {
+          "UTD.Repository.dll": {}
+        }
+      },
+      "UTD.Models/1.0.0": {
+        "runtime": {
+          "UTD.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UTD.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UTD.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

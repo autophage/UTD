@@ -1,0 +1,15 @@
+C:\Users\erich\source\repos\UTD\UTD.Repository\bin\Debug\net6.0\UTD.Repository.deps.json
+C:\Users\erich\source\repos\UTD\UTD.Repository\bin\Debug\net6.0\UTD.Repository.dll
+C:\Users\erich\source\repos\UTD\UTD.Repository\bin\Debug\net6.0\UTD.Repository.pdb
+C:\Users\erich\source\repos\UTD\UTD.Repository\bin\Debug\net6.0\UTD.Models.dll
+C:\Users\erich\source\repos\UTD\UTD.Repository\bin\Debug\net6.0\UTD.Models.pdb
+C:\Users\erich\source\repos\UTD\UTD.Repository\obj\Debug\net6.0\UTD.Repository.csproj.AssemblyReference.cache
+C:\Users\erich\source\repos\UTD\UTD.Repository\obj\Debug\net6.0\UTD.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erich\source\repos\UTD\UTD.Repository\obj\Debug\net6.0\UTD.Repository.AssemblyInfoInputs.cache
+C:\Users\erich\source\repos\UTD\UTD.Repository\obj\Debug\net6.0\UTD.Repository.AssemblyInfo.cs
+C:\Users\erich\source\repos\UTD\UTD.Repository\obj\Debug\net6.0\UTD.Repository.csproj.CoreCompileInputs.cache
+C:\Users\erich\source\repos\UTD\UTD.Repository\obj\Debug\net6.0\UTD.Repository.csproj.CopyComplete
+C:\Users\erich\source\repos\UTD\UTD.Repository\obj\Debug\net6.0\UTD.Repository.dll
+C:\Users\erich\source\repos\UTD\UTD.Repository\obj\Debug\net6.0\refint\UTD.Repository.dll
+C:\Users\erich\source\repos\UTD\UTD.Repository\obj\Debug\net6.0\UTD.Repository.pdb
+C:\Users\erich\source\repos\UTD\UTD.Repository\obj\Debug\net6.0\ref\UTD.Repository.dll
